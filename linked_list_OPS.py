@@ -40,7 +40,7 @@ class LinkedList:
         #1> While data in head 2>While data not in head
         while cur!=None: 
             if cur.get_data()==data: 
-                if found==False:
+                if pre==None:
                     self.head = cur.get_next()
                     found=True
                     break
@@ -62,10 +62,10 @@ class LinkedList:
         while cur!=None:
             print(cur.get_data())
             cur = cur.get_next()
-
+'''
 LL = LinkedList()
 LL.insert(44)
 LL.insert(55)
 LL.insert(9)
 LL.insert(5)
-LL.display()
+LL.display()'''
