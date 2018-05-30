@@ -1,4 +1,6 @@
 # Data Structure with Python
-This repository is my practice code of Data Structure.
+This repository for my practice codes of Data Structure.
+<br>
 LL = Linked List
+<br>
 OPS = Operation(Insert,Search,Delete)
